@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-header[role=banner] {
+#header[role=banner] {
   background-color: red;
 }  
 
