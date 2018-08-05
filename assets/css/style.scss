@@ -9,7 +9,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 10px 15px;
 }
@@ -33,3 +33,14 @@
   grid-column: 2 / span 1;
   grid-row : 2;
 }
+
+.grid-item5 {
+  grid-column: 1 / span 1;
+  grid-row : 3;
+}
+
+.grid-item6 {
+  grid-column: 2 / span 1;
+  grid-row : 3;
+}
+
